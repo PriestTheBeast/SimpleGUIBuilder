@@ -32,7 +32,7 @@ I hope this will be useful to people :)
 
 ## Support
 
-If you find this useful consider supporting and buy me coffee :) https://www.buymeacoffee.com/MMartins
+If you find this useful consider supporting and buying me coffee :) https://www.buymeacoffee.com/MMartins
 
 <a href="https://www.buymeacoffee.com/MMartins"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=MMartins&button_colour=5F7FFF&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFFFFF"></a>
 
