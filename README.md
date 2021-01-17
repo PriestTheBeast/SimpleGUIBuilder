@@ -24,9 +24,9 @@ I hope this will be useful to people :)
 Quick disclaimer:
 With this being a tool for making GUI layouts for PySimpleGUI, you will need to know the basics of how PySimpleGUI works.
 But worry not, quick experimentation with the SimpleGUIBuilder will also help you in learning it faster. And as advertised in the name, it should be simple ;)
-
 I recommend you start [here](https://pysimplegui.trinket.io/demo-programs#/demo-programs/the-basic-pysimplegui-program) and then use
 [PySimpleGUI Docs](https://pysimplegui.readthedocs.io/en/latest/) as needed.
+
 
 Lets get on with the show. There's mainly 2 steps in creating a GUI with PySimpleGUI:
 1. Design the GUI, by creating it's correspondent layout;
