@@ -1,6 +1,6 @@
 # SimpleGUIBuilder
 
-> A GUI for creating/designing Python GUI's.
+> A GUI for designing Python GUI's.
 
 ## Installation
 
@@ -15,7 +15,7 @@ But in checking out PySimpleGUI I found I wanted more and had an idea:
 It would be nice if PySimpleGUI and therefore GUI making/designing was in itself more interactive.
 
 And that's how SimpleGUIBuilder came to be:
-A GUI for creating/designing GUI's for PySimpleGUI, made with PySimpleGUI.
+A GUI for creating/designing GUI's layouts for PySimpleGUI, made with PySimpleGUI.
 
 I hope this will be useful to people :)
 
@@ -23,11 +23,13 @@ I hope this will be useful to people :)
 
 ## How it works
 
+There's mainly 3 steps in creating a GUI with PySimpleGui
+
+It's easier to show then to explain, so I made a quick video.
+
 
 ## More info
 
-
-## A more useful example
 
 
 ## Support
