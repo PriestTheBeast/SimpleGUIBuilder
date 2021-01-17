@@ -47,7 +47,7 @@ Example layout used:
 
 ### **IMPORTANT NOTES:** 
 
-* SimpleGUIBuilder will not automatically change your work. **Export or Save before closing**.
+* SimpleGUIBuilder will not automatically change save your work. **Export or Save before closing**.
 
 * If you import an empty layout, [] , it basically clear the current layout being built. Should be useful instead of manually deleting everything.
 
