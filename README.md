@@ -8,6 +8,16 @@ There is none :) just download the file and run it.
 
 ## About
 
+I don't really like frontend but I really like the idea of giving my backend/terminal programs something more pleasurable to interact with.
+
+That's when I came across PySimpleGUI, a simple solution to quickly give my programs an interactive front.
+But in checking out PySimpleGUI I found I wanted more and had an idea:
+It would be nice if PySimpleGUI and therefore GUI making/designing was in itself more interactive.
+
+And that's how SimpleGUIBuilder came to be:
+A GUI for creating/designing GUI's for PySimpleGUI, made with PySimpleGUI.
+
+I hope this will be useful to people :)
 
 ## How it works
 
