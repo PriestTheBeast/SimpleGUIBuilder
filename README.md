@@ -29,12 +29,27 @@ I recommend you start [here](https://pysimplegui.trinket.io/demo-programs#/demo-
 [PySimpleGUI Docs](https://pysimplegui.readthedocs.io/en/latest/) as needed.
 
 Lets get on with the show. There's mainly 2 steps in creating a GUI with PySimpleGUI:
-* Design the GUI, by creating it's correspondent layout
-* Create the window and map your code to the GUI.
+1. Design the GUI, by creating it's correspondent layout;
+2. Create the window and map your code to the GUI through the event loop.
 
 SimpleGUIBuilder will help you with the 1st step, with designing the GUI's layout for PySimpleGUI.
 
 It's easier to show then to explain here, so I made a quick video where I create [this simple GUI](https://pysimplegui.trinket.io/demo-programs#/demo-programs/the-basic-pysimplegui-program).
+
+Example layout used:
+```
+[ 
+  [sg.Text('This is a very basic PySimpleGUI layout')],
+  [sg.Input()],
+  [sg.Button('Button'), sg.Button('Exit')]
+]
+```
+
+### **IMPORTANT NOTES:** 
+
+* SimpleGUIBuilder will not automatically change your work. **Export or Save before closing**.
+
+* If you import an empty layout, [] , it basically clear the current layout being built. Should be useful instead of manually deleting everything.
 
 ## More info
 
@@ -42,17 +57,25 @@ Hopefully the SimpleGUIBuilder's GUI is intuitive and easy to pick up, but I wil
 
 There's 3 huge sections:
 * **Left - Element Tree**: It shows the layout's structure in a tree form. It's where you can select elements.
+
 * **Middle - Element Action**: Where you can choose to add/remove/move an element.
-* **Right - Element Properties**: It shows the layout's structure in a tree form. It's where you can select elements.
+
+* **Right - Element Properties**: It's shows all of the element's properties. Here you can also change a property and click **Apply Properties** to apply. 
+You can think of properties like the initial arguments of an element, because that's exactly what it is.
+
 
 On the top you have a bunch of action buttons:
-* **About**: about :)
-* **Preview**: about :)
-* **Import**: about :)
-* **Export**: about :)
-* **Save**: about :)
-* **Apply Properties**: about :)
+* **About**: The about :)
 
+* **Preview**: A truly magical button that immediately shows you a preview of how the GUI will look like for the layout you're building.
+
+* **Import**: Give it a layout, like the one above, and it will import it.
+
+* **Export**: Gives you the layout for the GUI you built.
+
+* **Save**: Creates a file based on this [template](https://pysimplegui.trinket.io/demo-programs#/demo-programs/the-basic-pysimplegui-program) but with your layout already in it. Should help you quickly get onto the 2nd step mentioned in the previous section ("Create the window and map your code to the GUI").
+
+* **Apply Properties**: When you change the properties of an element you click here, it will apply and save then. You can then immediately see the changes on the GUI with the "Preview" button (depending on the property you change actually doing a visible change ofc).
 
 ## Support
 
