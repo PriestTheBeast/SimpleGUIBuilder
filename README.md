@@ -19,6 +19,8 @@ A GUI for creating/designing GUI's for PySimpleGUI, made with PySimpleGUI.
 
 I hope this will be useful to people :)
 
+[PySimpleGUI Docs](https://pysimplegui.readthedocs.io/en/latest/)
+
 ## How it works
 
 
