@@ -35,3 +35,5 @@ I hope this will be useful to people :)
 If you find this useful consider supporting and buy me coffee :) 
 
 <a href="https://www.buymeacoffee.com/MMartins"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=MMartins&button_colour=5F7FFF&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFFFFF"></a>
+
+And this wouldn't be possible without PySimpleGUI, so they also really deserve it ;) https://www.buymeacoffee.com/PySimpleGUI 
