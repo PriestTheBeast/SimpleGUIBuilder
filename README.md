@@ -47,7 +47,7 @@ Example layout used:
 
 ### **IMPORTANT NOTES:** 
 
-* SimpleGUIBuilder will not automatically save your work. **Export or Save before closing**.
+* SimpleGUIBuilder will automatically save your work every 3 minutes and when you close the window. It will save to an autosave.txt file in the same folder of the program. When starting, it will also autoload from the autosave file if there is one.
 
 * If you import an empty layout, [] , it basically clear the current layout being built. Should be useful instead of manually deleting everything.
 
@@ -73,7 +73,11 @@ On the top you have a bunch of action buttons:
 
 * **Export**: Gives you the layout for the GUI you built.
 
-* **Save**: Creates a file based on this [template](https://pysimplegui.trinket.io/demo-programs#/demo-programs/the-basic-pysimplegui-program) but with your layout already in it. Should help you quickly get onto the 2nd step mentioned in the previous section ("Create the window and map your code to the GUI").
+* **Save**: Exports the layout and saves it into a file.
+
+* **Load**: Imports the layout from a file.
+
+* **Setup**: Creates a file based on this [template](https://pysimplegui.trinket.io/demo-programs#/demo-programs/the-basic-pysimplegui-program) but with your layout already in it. Should help you quickly get onto the 2nd step mentioned in the previous section ("Create the window and map your code to the GUI").
 
 * **Apply Properties**: When you change the properties of an element you click here, it will apply and save then. You can then immediately see the changes on the GUI with the "Preview" button (depending on the property you change actually doing a visible change ofc).
 
