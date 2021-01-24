@@ -38,6 +38,9 @@ Lets get on with the show. There's mainly 2 steps in creating a GUI with PySimpl
 SimpleGUIBuilder will help you with the 1st step, with designing the GUI's layout for PySimpleGUI.
 
 It's easier to show then to explain here, so I made a quick video where I create [this simple GUI](https://pysimplegui.trinket.io/demo-programs#/demo-programs/the-basic-pysimplegui-program).
+(video go downgraded to gif for now, I might still make a video later if i can)
+
+![](SimpleGUIBuilder.gif)
 
 Example layout used:
 ```
