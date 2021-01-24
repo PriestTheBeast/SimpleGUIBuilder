@@ -49,7 +49,7 @@ Example layout used:
 
 * SimpleGUIBuilder will automatically save your work every 3 minutes and when you close the window. It will save to an autosave.txt file in the same folder of the program. When starting, it will also autoload from the autosave file if there is one.
 
-* If you import an empty layout, [] , it basically clear the current layout being built. Should be useful instead of manually deleting everything.
+* If you import an empty layout, [] , it will basically clear the current layout being built. Should be useful instead of manually deleting everything.
 
 * Don't forget to press **Apply Properties** to save your property changes.
 
