@@ -51,6 +51,8 @@ Example layout used:
 
 * If you import an empty layout, [] , it basically clear the current layout being built. Should be useful instead of manually deleting everything.
 
+* Don't forget to press **Apply Properties** to save your property changes.
+
 ## More info
 
 Hopefully the SimpleGUIBuilder's GUI is intuitive and easy to pick up, but I will also explain it here.
