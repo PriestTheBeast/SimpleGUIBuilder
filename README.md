@@ -4,7 +4,10 @@
 
 ## Installation
 
-There is none :) just download the file and run it.
+There is none :) just download the file from a release and run it. 
+Don't download from anywhere else (should it appear somewhere else it's not mine).
+
+Exec made with pyinstaller
 
 ## About
 
