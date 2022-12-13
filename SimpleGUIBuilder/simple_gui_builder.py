@@ -1,7 +1,7 @@
 import inspect
 import sys
 import time
-
+import keyboard
 import PySimpleGUI as sg
 from tree_node import TreeNode
 
@@ -22,8 +22,8 @@ def make_elements_frame():
 	# Makes a button for each string in the given list of strings
 	make_button_row = (lambda element_list: [sg.Button(button_text=e, key=ELEMB_KEY + e) for e in element_list])
 
-	layout.append([sg.Button(button_text="Delete Element", button_color=("black", "darkred"), key="DeleteElement"),
-				   sg.Button('Move Element Up', key="MoveUp"), sg.Button('Move Element Down', key="MoveDown")])
+	layout.append([sg.Button(button_text="Delete Element", button_color=("black", "darkred"), key="DeleteElement", tooltip = "Delete an element (Alt-D)"),
+				   sg.Button('Move Element Up', key="MoveUp", tooltip = "Move an element up(Alt-Up)"), sg.Button('Move Element Down', key="MoveDown", tooltip = "Move an element down(Alt-down)")])
 
 	layout.append([sg.Text(text="Main Elements")])
 	main_elements = ["Text", "InputText", "Output", "Button", "Combo", "Listbox", "Radio", "Checkbox"]
@@ -130,6 +130,10 @@ def main():
 	win2 = None
 	win2_active = False
 	current_time = time.time()
+	# Bind keys
+	window.bind("<Alt_L><D>", "DeleteElement-Keybind")
+	window.bind("<Alt_L><Up>", "UpElement-Keybind")
+	window.bind("<Alt_L><Down>", "DownElement-Keybind")
 
 	# The event loop
 	while True:
@@ -194,8 +198,8 @@ def main():
 				selected_tree_element[0].add_tree_node(TreeNode(GUI_CLASSES[element_name]))
 				tree_element.update(values=tree.get_tree_data())
 
-		# If user clicked on the DeleteElement button
-		if event == "DeleteElement":
+		# If user clicked on the DeleteElement button or uses the keybind
+		if event == "DeleteElement" or event == "DeleteElement-Keybind":
 			selected_tree_element = values["-TREE-"]
 			if not selected_tree_element:
 				sg.popup("No element selected")
@@ -206,7 +210,7 @@ def main():
 					tree_element.update(values=tree.get_tree_data())
 
 		# If user clicked on the MoveUp element button
-		if event == "MoveUp":
+		if event == "MoveUp" or event == "UpElement-Keybind":
 			selected_tree_element = values["-TREE-"]
 			if not selected_tree_element:
 				sg.popup("No element selected")
@@ -215,7 +219,7 @@ def main():
 			tree_element.update(values=tree.get_tree_data())
 
 		# If user clicked on the MoveDown element button
-		if event == "MoveDown":
+		if event == "MoveDown"or event == "DownElement-Keybind":
 			selected_tree_element = values["-TREE-"]
 			if not selected_tree_element:
 				sg.popup("No element selected")
