@@ -1,7 +1,6 @@
 import inspect
 import sys
 import time
-import keyboard
 import PySimpleGUI as sg
 from tree_node import TreeNode
 
