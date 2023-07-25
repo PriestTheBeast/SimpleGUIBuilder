@@ -102,7 +102,7 @@ class TreeNode:
 		# if element is empty root or row
 		if self.element in ("Root", "Row"):
 			if self.element == "Root":
-				raise Exception("Root cannot be empty")
+				raise ValueError("Root cannot be empty")
 			return []
 
 		return self.element(*[self.necessary_args[x] for x in self.necessary_args_name], **self.optional_args)
